@@ -15,23 +15,23 @@ public class P03_AdminPage {
 
     ////////Locators
     private WebElement userRoleDropdown() {
-        return driver.findElement(By.xpath("(//div[@class=\"oxd-select-wrapper\"])[1]"));
+        return driver.findElement(By.xpath("(//label[@class='oxd-label oxd-input-field-required'] [contains(.,'User Role') or contains(.,'Rol de Usuario')]//following::div)[1]"));
     }
 
     private WebElement userRoleSelect() {
-        return driver.findElement(By.xpath("//div[@role=\"option\"] [contains(.,'Admin')]"));
+        return driver.findElement(By.xpath("//div[@role='option'] [contains(.,'Admin') or contains(.,'Administrador')]"));
     }
 
     private WebElement statusDropdown() {
-        return driver.findElement(By.xpath("(//div[@class=\"oxd-select-wrapper\"])[2]"));
+        return driver.findElement(By.xpath("(//label[@class='oxd-label oxd-input-field-required'] [contains(.,'Status') or contains(.,'Estatus')]//following::div)[1]"));
     }
 
     private WebElement statusSelect() {
-        return driver.findElement(By.xpath("//div[@role=\"option\"] [contains(.,'Enabled')]"));
+        return driver.findElement(By.xpath("//div[@role='option'] [contains(.,'Enabled') or contains(.,'Habilitado')]"));
     }
 
     private WebElement employeeNameInput() {
-        return driver.findElement(By.xpath("(//label[text()='Employee Name']//following::input)[1]"));
+        return driver.findElement(By.xpath("(//label[text()='Employee Name' or text()='Nombre del Empleado']//following::input)[1]"));
     }
 
     private WebElement employeeNameSelect() {
@@ -43,23 +43,23 @@ public class P03_AdminPage {
     }
 
     private WebElement userNameInput() {
-        return driver.findElement(By.xpath("(//label[text()='Username']//following::input)[1]"));
+        return driver.findElement(By.xpath("(//label[text()='Username' or text()='Nombre de usuario']//following::input)[1]"));
     }
 
     private WebElement passwordInput() {
-        return driver.findElement(By.xpath("(//label[text()='Password']//following::input)[1]"));
+        return driver.findElement(By.xpath("(//label[text()='Password' or text()='Contraseña']//following::input)[1]"));
     }
 
     private WebElement confirmPasswordInput() {
-        return driver.findElement(By.xpath("//label[text()='Confirm Password']//following::input"));
+        return driver.findElement(By.xpath("//label[text()='Confirm Password' or text()='Confirme contraseña']//following::input"));
     }
 
     private WebElement getSaveBtn() {
-        return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Save')]"));
+        return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Save') or contains(.,'Guardar')]"));
     }
 
     private WebElement getSearchBtn() {
-        return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Search')]"));
+        return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Search') or contains(.,'Buscar')]"));
     }
 
     private WebElement getDeleteBtn() {
@@ -71,7 +71,7 @@ public class P03_AdminPage {
     }
 
     private WebElement getAddBtn() {
-        return driver.findElement(By.xpath("//button[@type=\"button\"] [contains(.,'Add')]"));
+        return driver.findElement(By.xpath("//i[@class=\"oxd-icon bi-plus oxd-button-icon\"]/parent::button"));
     }
 
     private WebElement getNumberOfRecordsEle() {
