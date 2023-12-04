@@ -51,7 +51,7 @@ public class D01_NumberOfRecords {
         new P02_DashboardPage(driver).clickOnAdminBtn();
     }
 
-    @Then("get the number if records")
+    @Then("get the number of records")
     public void getTheNumberIfRecords() {
         recordNumber = new P03_AdminPage(driver).getNumberOfRecords();
         System.out.println("Number of Records found: " + recordNumber);
@@ -68,7 +68,7 @@ public class D01_NumberOfRecords {
     }
 
     @And("user click on Save Button")
-    public void userClickOnSaveButton() {
+    public void userClickOnSaveButton() throws InterruptedException {
         new P03_AdminPage(driver).clickOnSaveBtn();
     }
 

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="2nd commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Runners/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Runners/Runners.java" afterDir="false" />
+    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="Fix empolyeeName Error">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_NumberOfRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_NumberOfRecords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,12 +163,29 @@
       <option name="project" value="LOCAL" />
       <updated>1701701962404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix empolyeeName Error">
+      <option name="closed" value="true" />
+      <created>1701707638265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701707638265</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix empolyeeName Error">
+      <option name="closed" value="true" />
+      <created>1701707836820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701707836820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2nd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+    <MESSAGE value="Fix empolyeeName Error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix empolyeeName Error" />
   </component>
 </project>

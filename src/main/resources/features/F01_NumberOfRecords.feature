@@ -8,7 +8,7 @@ Feature: Verify Number of Records after Adding/Removing one
 
   Scenario: logged in user gets number of records found
     When user click on Admin tab
-    Then get the number if records
+    Then get the number of records
 
   Scenario: Add new Record and Verify Number of Records
     Given user click on Add Button

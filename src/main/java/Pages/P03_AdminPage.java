@@ -97,8 +97,9 @@ public class P03_AdminPage {
         confirmPasswordInput().sendKeys("Test@1234");
     }
 
-    public void clickOnSaveBtn() {
+    public void clickOnSaveBtn() throws InterruptedException {
         getSaveBtn().click();
+        Thread.sleep(1500);
     }
 
     public int getNumberOfRecords() {
