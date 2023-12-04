@@ -22,6 +22,7 @@ public class D01_NumberOfRecords {
     public static int recordNumber, currentRecordsNumber;
 
 
+    ////// Scenario 1: user login with valid data
     @Given("user navigate to {string}")
     public void userNavigateTo(String url) {
         driver.navigate().to(url);
@@ -46,6 +47,8 @@ public class D01_NumberOfRecords {
         soft.assertAll();
     }
 
+
+    //////// Scenario 2: logged in user gets number of records found
     @When("user click on Admin tab")
     public void userClickOnAdminTab() {
         new P02_DashboardPage(driver).clickOnAdminBtn();
@@ -57,6 +60,8 @@ public class D01_NumberOfRecords {
         System.out.println("Number of Records found: " + recordNumber);
     }
 
+
+    ///////////// Scenario 3: Add new Record and Verify Number of Records
     @Given("user click on Add Button")
     public void userClickOnAddButton() {
         new P03_AdminPage(driver).clickOnAddBtn();
@@ -80,6 +85,7 @@ public class D01_NumberOfRecords {
     }
 
 
+    /////////// Scenario 4: Remove Record and Verify Number of Records
     @Given("user search with the new username")
     public void userSearchWithTheNewUsername() throws InterruptedException {
         new P03_AdminPage(driver).searchWithUserName();
@@ -87,7 +93,7 @@ public class D01_NumberOfRecords {
 
     @When("user Delete the new user")
     public void userDeleteTheNewUser() {
-        new P03_AdminPage(driver).deleteUnewserName();
+        new P03_AdminPage(driver).deleteNewUserName();
     }
 
     @Then("Verify number of records Decreased by {int}")

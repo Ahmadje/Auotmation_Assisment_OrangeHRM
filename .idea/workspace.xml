@@ -4,8 +4,39 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="Fix empolyeeName Error">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" afterDir="false" />
+    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="Edit Text in feature file">
+      <change afterPath="$PROJECT_DIR$/allure-results/0196b8b0-9306-497c-91e0-720f5cfc9f43-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/03c92784-f994-4d6a-84a3-88a948bab7b1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0b289d00-cd06-4708-9cb1-712a5ae44e0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0e078005-07df-4bf9-9278-97c3ea4def67-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1e4b4768-ae8f-4d61-a3c8-36244421e7e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1ed665bb-6b68-4abe-8244-6a64963ece4a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1fbb2f56-61f6-4dbe-bc36-42208bb58c58-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/233feeeb-6d65-4ffa-a4e6-07aee8f17a47-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a3f6b40-6bf2-4b6c-81ec-4948e5f006a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2d6ee6b6-81ea-4c71-8423-6bc737bb4016-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/357bfd54-a8eb-4b51-9ae7-9fb3c485c313-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/46a3a561-25ef-49de-8cc0-5568541dbe63-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5555088b-db1f-44ea-98a8-89e79ca806b1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60f34b37-76f9-4ea2-9b16-baee640165d9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/68942097-9864-4207-9ffc-46137a8b77e1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6dcd29a1-729c-4302-953c-a46908d36b98-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/83ebe09a-a8eb-4af3-9f21-4e37896b1f38-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/850380a9-3f23-4bf7-a36f-64a463a6491a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c467a25-e720-4680-9e86-f2fda0ab6b5c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/99d2bd4f-0cba-4e13-b256-bc08b494722f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e7929ce-e68a-426c-a1dc-dbce368e8299-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a1bb0245-6fe5-4a5e-9ad4-42c679c04321-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae0542d3-ef71-4ba8-9e44-c4bb0c22b17e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/af49602d-09c4-4bcf-a37a-7b5b3d538c84-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b07ebc6f-21dc-4bb3-9232-42f2c20c125b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c609de77-871f-48b1-bff1-923608df1169-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d6362c65-3be5-4c75-991a-c06731521189-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d6638409-49cd-4e89-beb1-33f4487a26e2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1124b51-a844-4990-bc82-3c510f67d3c9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/edf20c44-5bd8-4652-8c66-22acb4f4812b-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_AdminPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_NumberOfRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_NumberOfRecords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +210,22 @@
       <option name="project" value="LOCAL" />
       <updated>1701707836820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Edit Text in feature file">
+      <option name="closed" value="true" />
+      <created>1701708188830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701708188830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Fix empolyeeName Error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix empolyeeName Error" />
+    <MESSAGE value="Edit Text in feature file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Text in feature file" />
   </component>
 </project>

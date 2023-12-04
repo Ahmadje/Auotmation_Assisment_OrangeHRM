@@ -38,7 +38,7 @@ public class P03_AdminPage {
             return driver.findElement(By.xpath("(//div[@role='listbox'])[1]"));
     }
 
-    private WebElement getEmployeeName() {
+    private WebElement getEmployeeNameEle() {
         return driver.findElement(By.xpath("(//div[@class=\"oxd-table-cell oxd-padding-cell\"])[4]"));
     }
 
@@ -106,12 +106,12 @@ public class P03_AdminPage {
         String Txt = getNumberOfRecordsEle().getText();
         String numberString = Txt.replaceAll("[^0-9]", "");
         int currentRecordsNumber = Integer.parseInt(numberString);
-        empolyeeName = getEmpolyeeName();
+        empolyeeName = getEmployeeName();
         return currentRecordsNumber;
     }
 
-    public String getEmpolyeeName() {
-        return getEmployeeName().getText();
+    public String getEmployeeName() {
+        return getEmployeeNameEle().getText();
     }
 
     public void searchWithUserName() {
@@ -119,7 +119,7 @@ public class P03_AdminPage {
         getSearchBtn().click();
     }
 
-    public void deleteUnewserName() {
+    public void deleteNewUserName() {
         getDeleteBtn().click();
         confirmDeleteBtn().click();
     }
