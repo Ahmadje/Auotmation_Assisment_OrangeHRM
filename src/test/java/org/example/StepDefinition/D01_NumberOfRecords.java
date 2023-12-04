@@ -52,7 +52,7 @@ public class D01_NumberOfRecords {
     }
 
     @Then("get the number if records")
-    public void getTheNumberIfRecords() throws InterruptedException {
+    public void getTheNumberIfRecords() {
         recordNumber = new P03_AdminPage(driver).getNumberOfRecords();
         System.out.println("Number of Records found: " + recordNumber);
     }
@@ -98,12 +98,14 @@ public class D01_NumberOfRecords {
         System.out.println("Number of Records found: " + currentRecordsNumber);
         Assert.assertEquals(currentRecordsNumber, recordNumber);
     }
+
     @BeforeAll
     public static void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
+
     @AfterAll
     public static void tearDown() {
         driver.quit();
