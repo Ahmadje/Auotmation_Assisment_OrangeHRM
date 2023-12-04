@@ -1,4 +1,4 @@
-package org.example.Runners.Pages;
+package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -33,7 +33,7 @@ public class P03_AdminPage {
         return driver.findElement(By.xpath("(//label[text()='Employee Name']//following::input)[1]"));
     }
     private WebElement employeeNameSelect() {
-        return driver.findElement(By.xpath("//div[@role=\"option\"] [contains(.,'Lisa  Andrews')]"));
+        return driver.findElement(By.xpath("(//div[@role=\"option\"] [contains(.,'Test')])[1]"));
     }
 
     private WebElement userNameInput() {
@@ -75,12 +75,13 @@ public class P03_AdminPage {
         getAddBtn().click();
     }
 
-    public void fillRequiredFields() {
+    public void fillRequiredFields() throws InterruptedException {
         userRoleDropdown().click();
         userRoleSelect().click();
         statusDropdown().click();
         statusSelect().click();
-        employeeName().sendKeys("Lisa  Andrews");
+        employeeName().sendKeys("Test");
+        Thread.sleep(1000);
         employeeNameSelect().click();
 //        int random = (int) (Math.random() * ((100 - 1) + 1));
         userNameInput().sendKeys("AhmadJoe");

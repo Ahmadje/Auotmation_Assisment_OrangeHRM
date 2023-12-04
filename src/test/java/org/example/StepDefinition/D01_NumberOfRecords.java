@@ -1,5 +1,8 @@
 package org.example.StepDefinition;
 
+import Pages.P01_LoginPage;
+import Pages.P02_DashboardPage;
+import Pages.P03_AdminPage;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.And;
@@ -7,9 +10,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.Pages.P01_LoginPage;
-import org.example.Pages.P02_DashboardPage;
-import org.example.Pages.P03_AdminPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -17,7 +17,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
-public class D01_Login {
+public class D01_NumberOfRecords {
     public static WebDriver driver;
     public static int recordNumber, currentRecordsNumber;
 
@@ -63,7 +63,7 @@ public class D01_Login {
     }
 
     @When("user fill the required data")
-    public void userFillTheRequiredData() {
+    public void userFillTheRequiredData() throws InterruptedException {
         new P03_AdminPage(driver).fillRequiredFields();
     }
 
@@ -79,12 +79,6 @@ public class D01_Login {
         Assert.assertEquals(currentRecordsNumber - recordNumber, num);
     }
 
-    @BeforeAll
-    public static void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
 
     @Given("user search with the new username")
     public void userSearchWithTheNewUsername() throws InterruptedException {
@@ -102,10 +96,14 @@ public class D01_Login {
         Thread.sleep(1500);
         currentRecordsNumber = new P03_AdminPage(driver).getNumberOfRecords();
         System.out.println("Number of Records found: " + currentRecordsNumber);
-        Assert.assertEquals(currentRecordsNumber , recordNumber);
+        Assert.assertEquals(currentRecordsNumber, recordNumber);
     }
-
-
+    @BeforeAll
+    public static void setUp() {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+    }
     @AfterAll
     public static void tearDown() {
         driver.quit();

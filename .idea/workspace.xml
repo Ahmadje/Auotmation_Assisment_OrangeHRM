@@ -4,30 +4,170 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="" />
+    <list default="true" id="dc8092ea-1562-412d-9680-cccae4a47a73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/22133545-8fed-4402-8df3-6ca36f86ed07-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/321d3b47-50f1-47e5-b415-6424fe45763e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3356e71b-7afe-416f-b370-166a13566225-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/55da565b-a1dd-40e5-96eb-606aee030a11-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b7a93a5-dbee-4da9-9b4b-04492888568c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d8180d7-882c-474e-935e-0ac6889ffb7c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7548e1e8-b0a5-4981-8b2f-4c6bb41a8cc3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/819137d0-6ef2-4738-9f3d-89edd8c4c679-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/83ad6a20-d7a3-4b6f-b485-dd055cf994a8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97b90225-8e7a-4d3b-894c-26084ab3149d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b3c54490-4f8a-4456-8d39-9012be69bf19-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc26bf81-126b-406a-a49e-be0c7805735d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d676c833-10d8-432f-9de3-9d6fcfbe9ea1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ddbbf80b-8e51-4bbb-ba8c-d5c89a206e21-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f2f8c6cd-e8f9-4bfc-9219-d99db303bee2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P01_LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Runners/Runners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_NumberOfRecords.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Z2xYYEQtItWDxGJFyLx6J8O2kk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Ahmed.yousef/IdeaProjects/Auotmation_Assisment_Ahmed_Youssef/src/main/java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmed.yousef\IdeaProjects\Auotmation_Assisment_Ahmed_Youssef\src\main\java" />
+      <recent name="C:\Users\Ahmed.yousef\IdeaProjects\Auotmation_Assisment_Ahmed_Youssef\src\main\java\utils" />
+      <recent name="C:\Users\Ahmed.yousef\IdeaProjects\Auotmation_Assisment_Ahmed_Youssef" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Runners" />
+      <recent name="utils" />
+      <recent name="org.example.Pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Runners">
+    <configuration name="Feature: F01_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Login.feature" />
+      <option name="GLUE" value="org.example.StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Auotmation_Assisment_Ahmed_Youssef" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: F01_NumberOfRecords" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_NumberOfRecords.feature" />
+      <option name="GLUE" value="org.example.StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Auotmation_Assisment_Ahmed_Youssef" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_NumberOfRecords" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user login with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Login.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Auotmation_Assisment_Ahmed_Youssef" />
+      <option name="NAME_FILTER" value="^user login with valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user login with valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user login with valid data" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runners" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Auotmation_Assisment_Ahmed_Youssef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Runners" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Runners.Runners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Runners" />
+        <item itemvalue="Cucumber Java.Feature: F01_NumberOfRecords" />
+        <item itemvalue="Cucumber Java.Feature: F01_Login" />
+        <item itemvalue="Cucumber Java.Scenario: user login with valid data" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,5 +178,8 @@
       <updated>1701634025953</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
