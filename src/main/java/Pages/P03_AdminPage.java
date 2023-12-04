@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class P03_AdminPage {
     public WebDriver driver;
+    static String empolyeeName;
 
     ////////Constructor
     public P03_AdminPage(WebDriver driver) {
@@ -29,11 +30,16 @@ public class P03_AdminPage {
         return driver.findElement(By.xpath("//div[@role=\"option\"] [contains(.,'Enabled')]"));
     }
 
-    private WebElement employeeName() {
+    private WebElement employeeNameInput() {
         return driver.findElement(By.xpath("(//label[text()='Employee Name']//following::input)[1]"));
     }
+
     private WebElement employeeNameSelect() {
-        return driver.findElement(By.xpath("(//div[@role=\"option\"] [contains(.,'Test')])[1]"));
+            return driver.findElement(By.xpath("(//div[@role='listbox'])[1]"));
+    }
+
+    private WebElement getEmployeeName() {
+        return driver.findElement(By.xpath("(//div[@class=\"oxd-table-cell oxd-padding-cell\"])[4]"));
     }
 
     private WebElement userNameInput() {
@@ -51,6 +57,7 @@ public class P03_AdminPage {
     private WebElement getSaveBtn() {
         return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Save')]"));
     }
+
     private WebElement getSearchBtn() {
         return driver.findElement(By.xpath("//button[@type=\"submit\"] [contains(.,'Search')]"));
     }
@@ -58,6 +65,7 @@ public class P03_AdminPage {
     private WebElement getDeleteBtn() {
         return driver.findElement(By.xpath("//i[@class=\"oxd-icon bi-trash\"]/parent::button"));
     }
+
     private WebElement confirmDeleteBtn() {
         return driver.findElement(By.xpath("//button[@type=\"button\"] [contains(.,' Yes, Delete ')]"));
     }
@@ -80,8 +88,8 @@ public class P03_AdminPage {
         userRoleSelect().click();
         statusDropdown().click();
         statusSelect().click();
-        employeeName().sendKeys("Test");
-        Thread.sleep(1000);
+        employeeNameInput().sendKeys(empolyeeName);
+        Thread.sleep(1500);
         employeeNameSelect().click();
 //        int random = (int) (Math.random() * ((100 - 1) + 1));
         userNameInput().sendKeys("AhmadJoe");
@@ -97,7 +105,12 @@ public class P03_AdminPage {
         String Txt = getNumberOfRecordsEle().getText();
         String numberString = Txt.replaceAll("[^0-9]", "");
         int currentRecordsNumber = Integer.parseInt(numberString);
+        empolyeeName = getEmpolyeeName();
         return currentRecordsNumber;
+    }
+
+    public String getEmpolyeeName() {
+        return getEmployeeName().getText();
     }
 
     public void searchWithUserName() {
@@ -105,7 +118,7 @@ public class P03_AdminPage {
         getSearchBtn().click();
     }
 
-    public void deleteUnewserName(){
+    public void deleteUnewserName() {
         getDeleteBtn().click();
         confirmDeleteBtn().click();
     }
