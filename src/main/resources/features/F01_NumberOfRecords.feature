@@ -20,4 +20,3 @@ Feature: Verify Number of Records after Adding/Removing one
     Given user search with the new username
     When user Delete the new user
     Then Verify number of records Decreased by 1
-

@@ -89,7 +89,7 @@ public class P03_AdminPage {
         statusDropdown().click();
         statusSelect().click();
         employeeNameInput().sendKeys(empolyeeName);
-        Thread.sleep(1500);
+        Thread.sleep(2000);
         employeeNameSelect().click();
 //        int random = (int) (Math.random() * ((100 - 1) + 1));
         userNameInput().sendKeys("AhmadJoe");
