@@ -12,9 +12,11 @@ import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class D01_NumberOfRecords {
@@ -25,8 +27,8 @@ public class D01_NumberOfRecords {
     ////// Scenario 1: user login with valid data
     @Given("user navigate to {string}")
     public void userNavigateTo(String url) {
-        driver.navigate().to(url);
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.get(url);
+        driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
     }
 
     @Then("user login with {string} and {string}")
@@ -107,8 +109,8 @@ public class D01_NumberOfRecords {
 
     @BeforeAll
     public static void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.edgedriver().setup();
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
     }
 
